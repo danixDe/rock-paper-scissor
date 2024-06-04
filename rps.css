@@ -1,0 +1,95 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    
+}
+#h1{
+    color:hsla(297, 66%, 26%, 0.927);
+ 
+}
+.bc{
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+    max-height:110px;
+    align-items: center;
+   
+
+}
+.buttons{
+    width: 100px;
+    height:100px;
+    background-color: hsl(307, 81%, 80%);
+    margin: 15px;
+    border-radius:45px;
+    padding:10px;
+    max-width:105px;
+    cursor:-webkit-grab;
+
+   
+
+
+}
+.im{
+    width:40px;
+    height:40px;
+}
+.buttons:hover{
+    width:105px;
+    height:105px;
+    background-color: hsl(337, 88%, 69%);
+
+}
+#playerc,#compc{
+    font-size:25px;
+    font-weight:bold;
+    margin-top: 20px;
+    color:hsl(264, 40%, 32%);
+ 
+    
+    
+
+}
+#result{
+    color:hsl(344, 83%, 57%);
+    font-size:100px;
+    margin-top:20px;
+    padding:10px;
+    font-weight: bold;
+    cursor:cell;
+    
+}
+#pscore,#cscore{
+    font-size:30px;
+    margin-top:10px;
+ 
+}
+#scoreboard{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:400px;
+    height:150px;
+    flex-direction:column;
+    background-color: rgb(113, 195, 239);
+    padding:15px;
+
+}
+.mc{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    flex-direction: column;
+    margin-bottom:30px;
+
+}
+body{
+    font-family:"Kode Mono", Arial, sans-serif,sans-serif;
+    background-color: antiquewhite;
+    cursor:cell;
+    
+    
+}
